@@ -1,0 +1,21 @@
+<% include partials/header %>
+<div class="container">
+    <div class="row">
+       <div style="width: 30%; margin: 25px auto;">
+            <h1 style="font-size: 2.3rem;margin-bottom: 20px">REGISTER</h1>
+            <form action="/dashboard/<%=currentUser._id%>?_method=PUT" method="POST">
+                <div class="form-group">
+                    <input class="form-control" type="text" name="user[address]" value="<%=currentUser.address%>">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="user[contact]" value="<%=currentUser.contact%>">
+                </div>
+                <div class="form-group">
+                    <input class="btn btn-lg auth2 btn-block" type="submit" value="UPDATE">
+                </div>
+            </form>
+            <a href="/" class="back">Go Back</a>
+        </div>
+    </div>
+</div>
+<% include partials/footer %>

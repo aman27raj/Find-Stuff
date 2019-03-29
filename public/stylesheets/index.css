@@ -1,0 +1,320 @@
+.banner {
+	background:url('../images/banner.jpg') no-repeat 0px 0px;
+	background-size:cover;
+	min-height:240px;
+    padding:45px 0 0 0;
+}
+.main-banner {
+	background:url('../images/banner.jpg') no-repeat 0px 0px;
+	background-size:cover;
+	min-height:400px;
+	padding:100px 0 0 0;
+}
+.banner h1 {
+	color:#fff;
+	font-size: 45px;
+}
+.focus-border{
+    border:1px solid #e7eaed;
+    }
+    .focus-layout{
+        background:#FBFBFB;
+        transition:0.5s all;
+        -webkit-transition:0.5s all;
+        -moz-transition:0.5s all;
+        -o-transition:0.5s all;
+        -ms-transition:0.5s all;
+    }
+    .focus-layout{
+        margin: 5px;
+        padding: 20px 0;
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -o-transition: 0.5s all;
+        -ms-transition: 0.5s all;
+        text-align: center;
+    }
+    .focus-layout:hover {
+        background-color: #01a185;
+        transition:0.5s all;
+        -webkit-transition:0.5s all;
+        -moz-transition:0.5s all;
+        -o-transition:0.5s all;
+        -ms-transition:0.5s all;
+    }
+    .focus-layout h4{
+        margin: 0 0 0 0;
+        color:#4C4C4C;
+        font-size: 18px;
+        text-align:center;
+        height: 35px;
+        margin-top: 20px;
+    }
+    .focus-layout:hover h4.clrchg {
+        color: #fff;
+    }
+    
+
+
+    /* for category page */
+    .thumbnail img{
+        width: 100%;
+    }
+    
+    .thumbnail{
+        padding: 0;
+    }
+    
+/*--mobile-app--*/
+
+.mobile-app {
+    margin-top: 20px;
+    background-color: rgba(1, 161, 133, 0.65);
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+.app-right {
+	margin:auto;
+}
+.app-left a img{
+    width: 100%;
+}
+/* 
+.app-left{
+    margin: auto;
+}
+.app-right h3 {
+    font-size: 28px;
+    color: #fff;
+    line-height: 35px;
+}
+.app-right h3 span {
+	color:#000;
+	margin:0 7px;
+}
+.app-right p {
+	margin:15px 0 30px 0;
+	color:#eee;
+	font-size:15px;
+	line-height:25px;
+}
+.app-button {
+    float: left;
+}
+.app-button a {
+	display:block;
+}
+.app-button img {
+    width:90%;
+} */
+
+/*-- //mobile-app--*/
+
+
+    /*-- footer --*/
+/* footer{
+    position: relative; 
+    bottom:0%;
+    width:100%;
+} */
+.footer {
+    margin: 60px 0;
+}
+.footer-top {
+    padding: 60px 0;
+}
+.footer-bottom p {
+    margin: 20px 0 0 0;
+    color: #fff;
+    font-size: 14px;
+}
+.footer-bottom {
+    background: #3c3d41;
+    padding: 30px 0;
+}
+h4.footer-head {
+    font-size: 28px;
+    color: #01a185;
+    margin-bottom: 16px;
+}
+.footer-grid p {
+    color: #979797;
+    font-size: 13px;
+    line-height: 26px;
+    margin-top: 15px;
+}
+.footer-grid ul li {
+	list-style-type: none;
+    margin: 13px 0;
+}
+.footer-grid ul li a {
+    color: #979797;
+    font-size: 13px;
+    font-weight: 400;
+}
+span.hq {
+    color: rgba(89, 194, 175, 0.79);
+    font-size: 1em;
+    margin-bottom: 1em;
+    display: block;
+}
+address {
+    width: 100%;
+    color: #767676;
+    font-size: 0.9em;
+    line-height: 2.4em;
+}
+ul.location {
+    margin-top: 1em;
+}
+ul.location li {
+    float: left;
+    display: inline-block;
+    margin: 0;
+}
+span.glyphicon.glyphicon-map-marker {
+    margin-top: 3px;
+}
+span.glyphicon.glyphicon-map-marker, span.glyphicon.glyphicon-earphone, .glyphicon.glyphicon-envelope {
+    color: #fff;
+    font-size: 12px;
+    background-color: rgba(89, 194, 175, 0.68);
+    padding: 6px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    vertical-align: top;
+}
+ul.location li:nth-child(2) {
+    float: right;
+    width: 85%;
+    color: #979797;
+    font-size: 0.95em;
+    line-height: 2em;
+    text-transform: lowercase;
+    margin: 0;
+}
+.copyrights p,.diff p {
+    color: #979797;
+    font-size: 14px;
+	margin-top:0;
+}
+.copyrights p a,.diff p a {
+	color:#F3C506;
+	margin-left:2px;
+}
+.copyrights p a:hover,.diff p a:hover {
+	color:#01A185;
+}
+.footer-social-icons ul li {
+	display:inline-block;
+	margin:0 0.2em;
+}
+.footer-social-icons ul li a{
+	width:30px;
+	height:30px;
+	background:url('../images/img-sprite.png') no-repeat 0px 0px;
+	display:inline-block;
+	position: relative;
+}
+.footer-social-icons ul li a span {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: -25px;
+    right: -25px;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 2px;
+    background: #01a185;
+    visibility: hidden;
+    opacity: 0;
+    -o-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.footer-social-icons ul li a span:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #01a185;
+    position: absolute;
+    bottom: -5px;
+    left: 34px;
+}
+.footer-social-icons ul li a:hover span {
+    bottom: 41px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.footer-social-icons ul li a.facebook {
+	background-position:0px 0px;
+}
+.footer-social-icons ul li a.facebook:hover {
+	background-position:-0px -30px;
+}
+.footer-social-icons ul li a.twitter {
+	background-position:-30px 0px;
+}
+.footer-social-icons ul li a.twitter:hover {
+	background-position:-30px -30px;
+}
+.footer-social-icons ul li a.flickr {
+	background-position:-60px 0px;
+}
+.footer-social-icons ul li a.flickr:hover {
+	background-position:-60px -30px;
+}
+.footer-social-icons ul li a.googleplus {
+	background-position:-90px 0px;
+}
+.footer-social-icons ul li a.googleplus:hover {
+	background-position:-90px -30px;
+}
+.footer-social-icons ul li a.dribbble {
+	background-position:-120px 0px;
+}
+.footer-social-icons ul li a.dribbble:hover {
+	background-position:-120px -30px;
+}
+.footer-social-icons {
+    margin: 40px 0 15px 0;
+}
+.footer-logo a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 40px;
+    color: #01a185;
+    text-decoration: none;
+}
+.footer-logo a span {
+    color: #f3c500;
+}
+.footer-logo a {
+	position:relative;
+	display:block;
+}
+.footer-logo a:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 44%;
+    height: 1px;
+    background: #545556;
+}
+.footer-logo a:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 44%;
+    height: 1px;
+    background: #545556;
+}

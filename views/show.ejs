@@ -1,0 +1,26 @@
+<% include partials/header %>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 img-thumbnail">
+            <img src="<%=product.image%>" class="image" alt="">
+        </div>
+        <div class="col-md-6">
+            <h1><%=product.name%></h1>
+            <p><%=product.description%></p>
+            <p><%=product.price%></p>
+            <div>
+                <h3>Owner Details:</h3>
+                <ul>
+                    <li><%=product.owner.fullname%></li>
+                    <li><%=product.owner.address%></li>
+                    <li><%=product.owner.contact%></li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<% include partials/footer %>
