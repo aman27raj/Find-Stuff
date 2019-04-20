@@ -53,6 +53,7 @@
     }
     .focus-layout:hover h4.clrchg {
         color: #fff;
+        text-decoration: none;
     }
     
 

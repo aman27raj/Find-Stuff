@@ -34,7 +34,10 @@ router.post("/register",function(req,res){
         console.log(errors);
         res.render("register",{
             errors,
-            fullname
+            fullname,
+            username,
+            address,
+            contact
         })
     }else{
         User.findOne({username:username},function(err,user){
@@ -43,7 +46,9 @@ router.post("/register",function(req,res){
             }else{
                 if(user){
                     console.log("username exists");
-                    res.render("register",{fullname});
+                    res.render("register",{fullname,username,
+                        address,
+                        contact});
                 }else{
                     const newUser = new User({
                         fullname,

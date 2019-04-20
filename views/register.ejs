@@ -8,13 +8,13 @@
                     <input class="form-control" type="text" name="fullname" id="" placeholder="Full Name" value="<%= typeof fullname != 'undefined' ? fullname : ''%>">
                 </div>
                 <div class="form-group">
-                    <input class="form-control" type="text" name="username" placeholder="username">
+                    <input class="form-control" type="text" name="username" placeholder="username" value="<%= typeof username != 'undefined' ? username : ''%>">
                 </div>
                 <div class="form-group">
-                    <input class="form-control" type="text" name="address" placeholder="Address">
+                    <input class="form-control" type="text" name="address" placeholder="Address" value="<%= typeof address != 'undefined' ? address : ''%>">
                 </div>
                 <div class="form-group">
-                    <input class="form-control" type="text" name="contact" placeholder="Mobile Number">
+                    <input class="form-control" type="text" name="contact" placeholder="Mobile Number" value="<%= typeof contact != 'undefined' ? contact : ''%>">
                 </div>
                 <div class="form-group">
                     <input class="form-control" type="password" name="password" placeholder="password">
@@ -30,4 +30,27 @@
         </div>
     </div>
 </div>
-<% include partials/footer %>
+<footer class="xyz">
+    <div class="footer-bottom text-center">
+        <div class="container">
+            <div class="footer-logo">
+                <a href="/"><span>Find</span>Stuff</a>
+            </div>
+            <div class="footer-social-icons">
+                <ul>
+                    <li><a class="facebook" href="#"><span>Facebook</span></a></li>
+                    <li><a class="twitter" href="#"><span>Twitter</span></a></li>
+                    <li><a class="flickr" href="#"><span>Flickr</span></a></li>
+                    <li><a class="googleplus" href="#"><span>Google+</span></a></li>
+                    <li><a class="dribbble" href="#"><span>Dribbble</span></a></li>
+                </ul>
+            </div>
+            <div class="copyrights">
+                <p> Find Stuff. All Rights Reserved | Design by  Piyush Devansh and Aman Raj</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
